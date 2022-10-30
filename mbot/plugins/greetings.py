@@ -31,12 +31,12 @@ async def start(client,message):
             text="Bot Channel", url="https://t.me/autofilestream"),
         InlineKeyboardButton(
             text="Repo",
-            url=""),
+            url="https://github.com/iamakinola"),
         InlineKeyboardButton(text="Help",callback_data="helphome")
         ],
         [
             InlineKeyboardButton(text="Donate",
-            url=""),
+            url="https://github.com/iamakinola"),
         ]]
     if LOG_GROUP:
 
