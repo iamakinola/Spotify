@@ -32,8 +32,7 @@ from os import execvp,sys
 async def start(client,message):
     reply_markup = [[
         InlineKeyboardButton(
-            text="Bot Channel", url="https://t.me/AutoFileStream"),
-
+            text="Bot Channel", url="https://t.me/AutoFileStream")
         InlineKeyboardButton(text="Help",callback_data="helphome")
         ],
         [
